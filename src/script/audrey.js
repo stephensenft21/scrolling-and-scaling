@@ -5,6 +5,7 @@ const audrey = document.getElementById("audrey")
     for the "scroll" event.
 */
 window.addEventListener("scroll", function () {
+    console.log()
     /*
         Adjust the width of audrey to be 1/3 the value of
         `window.scrollY`. No lower than 50px, though.
